@@ -1,0 +1,4 @@
+{
+  "ext": "js,css,html",
+  "exec": "osascript -e 'tell application \"Google Chrome\" to reload tab \"Circular-rule\" of first window'"
+}

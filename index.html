@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+  <title>Circular-rule</title>
+  <script language="javascript" src="rule.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <div>
+    <h1>Circular-rule</h1>
+    <div class="input">
+      <div class="selector">
+        Mode: <select id="mode">
+          <option value="mult">Multiplication</option>
+          <option value="div">Division</option>
+        </select>
+      </div>
+      <div id="div">
+        <input id="op1" value="1"> <span id="op">&times;</span> <input id="op2" value="1"> = <input id="prod" value="1">
+      </div>
+    </div>
+  </div>
+  <canvas id="canvas" width="800" height="700"></canvas>
+  <div id="debug">Drag inside the circle to change the scale.  Drag outside to spin both wheels.  Use the mouse wheel to zoom.</div>
+  <div id="copyright">&copy;2022 Mike Wessler<br>Inspired by <a href="https://www.youtube.com/watch?v=ZIQQvxSXLhI" target="_blank">this</a> Mathologer video</div>
+</body>

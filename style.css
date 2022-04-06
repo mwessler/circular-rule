@@ -1,0 +1,43 @@
+canvas {
+  border: 1px solid black;
+  margin:1em;
+  touch-action: none;
+}
+
+#op1 {
+  background: rgba(255,0, 0, 0.1);
+}
+
+#op2 {
+  background: rgba(0, 0, 255, 0.1);
+}
+
+#prod {
+  background: rgba(0, 255, 0, 0.1);
+}
+
+.selector {
+  margin-bottom:0.5em;
+}
+
+.input {
+  margin-left: 1em;
+}
+
+#copyright {
+  position: fixed;
+  bottom: 5px;
+  right: 1em;
+  color: #ccc;
+  font-family: sans-serif;
+}
+
+#copyright a {
+  color: #aad;
+}
+
+#debug {
+  margin-left: 1em;
+  width: 800px;
+  font-family: sans-serif;
+}
